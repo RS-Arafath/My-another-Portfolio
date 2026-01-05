@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family:"Open Sans", sans-serif;
+  
+}
+
+/* ~~~~~~~shared style~~~ */
+.logo img{
+width: 200px;
+justify-content: center;
+align-items: center;
+}
+
+.btn{
+  background-color: #fd6e0a;
+  border: none;
+  padding: 18px 35px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+
+}
+
+header{
+  background-color: #fff8f3;
+  padding-top: 40px;
+  /* padding-bottom: 40px; */
+}
+nav{
+  width: 71%;
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+nav .menu{
+  display: flex;
+  list-style: none;
+  gap: 51px;
+  align-items: center;
+}
+nav .menu a{
+  font-size: 20px;
+  font-weight: 500;
+  color: #474747;
+  text-decoration: none;
+}
