@@ -5,18 +5,18 @@
 }
 
 body {
-  font-family:"Open Sans", sans-serif;
-  
+  font-family: "Open Sans", sans-serif;
+
 }
 
 /* ~~~~~~~shared style~~~ */
-.logo img{
-width: 200px;
-justify-content: center;
-align-items: center;
+.logo img {
+  width: 200px;
+  justify-content: center;
+  align-items: center;
 }
 
-.btn{
+.btn {
   background-color: #fd6e0a;
   border: none;
   padding: 18px 35px;
@@ -27,25 +27,28 @@ align-items: center;
 
 }
 
-header{
+header {
   background-color: #fff8f3;
   padding-top: 40px;
   /* padding-bottom: 40px; */
 }
-nav{
+
+nav {
   width: 71%;
   max-width: 1140px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
 }
-nav .menu{
+
+nav .menu {
   display: flex;
   list-style: none;
   gap: 51px;
   align-items: center;
 }
-nav .menu a{
+
+nav .menu a {
   font-size: 20px;
   font-weight: 500;
   color: #474747;
