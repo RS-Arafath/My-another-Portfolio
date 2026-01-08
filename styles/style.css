@@ -11,7 +11,8 @@ body {
 
 /* ~~~~~~~shared style~~~ */
 .logo img {
-  width: 200px;
+  height: 70px;
+  /* width: 190px; */
   justify-content: center;
   align-items: center;
 }
@@ -19,38 +20,104 @@ body {
 .btn {
   background-color: #fd6e0a;
   border: none;
-  padding: 18px 35px;
+  padding: 10px 20px;
   border-radius: 5px;
-  font-size: 20px;
-  font-weight: bold;
+  font-size: 16px;
+  font-weight: 500;
   color: white;
+  cursor: pointer;
 
 }
+
+.white-btn {
+  background-color: #fff8f3;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #fd6e0a;
+  cursor: pointer;
+  border: 1px solid #fd6e0a;
+  margin-left: 10px;
+}
+
+
 
 header {
   background-color: #fff8f3;
-  padding-top: 40px;
+  padding-top: 15px;
   /* padding-bottom: 40px; */
+  background: url("../images/developer (1).png"), url("../images/header_bg (3).png"), #fff8f3;
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+ 
 }
 
+
+/* ~~~~~~nav design~~~~~~~~ */
+
 nav {
-  width: 71%;
+  width: 80%;
   max-width: 1140px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  z-index: 100;
+  
 }
 
 nav .menu {
   display: flex;
   list-style: none;
-  gap: 51px;
+  gap: 45px;
   align-items: center;
 }
 
 nav .menu a {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 500;
   color: #474747;
   text-decoration: none;
+}
+
+/* ~~~header design~~~~~~ */
+#banner {
+  display: flex;
+  /* border: 1px solid red; */
+  margin: 20px 0px 0px 140px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#banner .banner-content {
+  max-width: 645px;
+}
+
+#banner .banner-content h2 {
+  font-size: 35px;
+  font-weight: 600;
+  margin-bottom: 3px;
+  color: #474747;
+}
+
+#banner .banner-content h1 {
+  font-size: 65px;
+  color: #181818;
+  margin-bottom: 10px;
+}
+
+#banner .banner-content p {
+  color: #757575;
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 20px;
+
+}
+
+.banner-img img {
+  width: 471px;
+  height: 560px;
+  vertical-align: middle;
+
 }
