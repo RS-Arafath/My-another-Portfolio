@@ -157,7 +157,7 @@ nav .menu a {
 }
 
 #about .about-container {
-  width: 80%;
+  width: 90%;
   max-width: 1140px;
   margin: 0 auto;
   text-align: center;
@@ -168,17 +168,67 @@ nav .menu a {
 .about-info {
   display: flex;
   gap: 30px;
-  justify-content:space-around;
+  justify-content: space-around;
   text-align: center;
 }
 
-.info-card p{
+.info-card p {
   font-size: 18px;
   color: #757575;
   margin-bottom: 10px;
- 
+
 }
 
-.info-card h4{
+.info-card h4 {
   /* font-size: 20px; */
+}
+
+/* ~~~~~~~~experience section~~~~~~~ */
+#working-station {
+  /* padding-top: 110px; */
+}
+
+#working-station .working-container {
+  width: 90%;
+  max-width: 1140px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 100px 0 100px 0;
+}
+#working-station .section-heading{
+  padding:0 120px ;
+}
+
+.experience {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-between;
+}
+
+.experience-card {
+  background-origin: #fff;
+  border-radius: 10px;
+  width: 250px;
+  padding: 30px;
+  text-align: left;
+  box-shadow: 0px 0px 10px rgb(205, 196, 196);
+}
+
+.experience-img {
+  margin-bottom: 15px;
+
+
+}
+
+.experience-card h3 {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 10px;
+
+}
+
+.experience-card p {
+  font-size: ;
+  line-height: 28px;
+  color: #757575;
 }
