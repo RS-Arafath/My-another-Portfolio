@@ -9,13 +9,20 @@ body {
 
 }
 
-/* ~~~~~~~shared style~~~ */
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
 .logo img {
   height: 70px;
   /* width: 190px; */
   justify-content: center;
   align-items: center;
 }
+
+/* ~~~~~~~shared style~~~ */
+
 
 .btn {
   background-color: #fd6e0a;
@@ -42,6 +49,28 @@ body {
   margin-left: 10px;
 }
 
+.section-heading {
+  /* max-width: 700px; */
+  text-align: center;
+  justify-content: center;
+}
+
+.section-heading h2 {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.section-heading p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  line-height: 25px;
+  color: #757575;
+}
+
+
+
+
+
 
 
 header {
@@ -51,7 +80,6 @@ header {
   background: url("../images/developer (1).png"), url("../images/header_bg (3).png"), #fff8f3;
   background-repeat: no-repeat;
   background-position: top left, bottom right;
- 
 }
 
 
@@ -64,7 +92,7 @@ nav {
   display: flex;
   justify-content: space-between;
   z-index: 100;
-  
+
 }
 
 nav .menu {
@@ -88,6 +116,7 @@ nav .menu a {
   margin: 20px 0px 0px 140px;
   justify-content: space-between;
   align-items: center;
+
 }
 
 #banner .banner-content {
@@ -120,4 +149,36 @@ nav .menu a {
   height: 560px;
   vertical-align: middle;
 
+}
+
+/* ~~~~~~~~~about section~~~~~~~ */
+#about {
+  padding-top: 110px;
+}
+
+#about .about-container {
+  width: 80%;
+  max-width: 1140px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #fff8f3;
+  padding: 100px 120px;
+}
+
+.about-info {
+  display: flex;
+  gap: 30px;
+  justify-content:space-around;
+  text-align: center;
+}
+
+.info-card p{
+  font-size: 18px;
+  color: #757575;
+  margin-bottom: 10px;
+ 
+}
+
+.info-card h4{
+  /* font-size: 20px; */
 }
